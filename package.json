@@ -1,0 +1,21 @@
+{
+  "name": "node-with-test-cases",
+  "version": "1.0.0",
+  "description": "node with test case",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "jest"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3"
+  }
+}
